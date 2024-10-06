@@ -11,10 +11,10 @@
 - **Mendukung Banyak Format**: Mendukung berbagai format gambar populer seperti JPEG dan PNG.
 
 ## Teknologi yang Digunakan
-- **HTML5 & CSS3**: Membentuk tampilan antarmuka pengguna.
-- **JavaScript**: Menyediakan interaktivitas dasar pada halaman.
 - **Django**: Framework Python untuk web.
+- **HTML5 & CSS3**: Membentuk tampilan antarmuka pengguna.
 - **Pillow**: Library Python untuk manipulasi gambar.
+- **JavaScript**: Menyediakan interaktivitas dasar pada halaman.
 
 ## Instalasi di Localhost
 1. **Clone repositori ini ke direktori lokalmu menggunakan Git**:
