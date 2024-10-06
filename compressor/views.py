@@ -8,16 +8,16 @@ from PIL import Image
 def compress_image(input_path, output_path, target_size_kb, initial_quality=90, resize_factor=0.8, resize=False):
     img = Image.open(input_path)
 
-    if resize == True:
+    if resize:
         width, height = img.size
         img = img.resize((int(width * resize_factor), int(height * resize_factor)), Image.Resampling.LANCZOS)
 
-    min_quality, max_quality = 10, initial_quality
+    min_quality, max_quality = 1, initial_quality
     best_quality = initial_quality
 
     while min_quality <= max_quality:
         quality = (min_quality + max_quality) // 2
-        img.save(output_path, format="JPEG", quality=quality)
+        img.save(output_path, format="JPEG", quality=quality, optimize=True)
         file_size_kb = os.path.getsize(output_path) / 1024
         
         if file_size_kb <= target_size_kb:
@@ -26,8 +26,11 @@ def compress_image(input_path, output_path, target_size_kb, initial_quality=90, 
         else:
             max_quality = quality - 1
 
-    img.save(output_path, format="JPEG", quality=best_quality)
-    print(f"Final file size: {file_size_kb:.2f} KB with quality={best_quality}")
+    img.save(output_path, format="JPEG", quality=best_quality, optimize=True)
+
+    compressed_size = os.path.getsize(output_path) / 1024
+    print(f"Compressed file size: {compressed_size} KB, with quality={best_quality}")
+
 
 def index(request):
     if request.method == 'POST':
