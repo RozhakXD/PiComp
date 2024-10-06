@@ -2,7 +2,7 @@
 ![PiComp](https://github.com/user-attachments/assets/0e9176ac-4e60-4ef6-b755-6b1ab35494f6)
 
 ### [🌐 Live Demo](https://picomp.pythonanywhere.com/)
-**PiComp** adalah aplikasi berbasis web sederhana yang memungkinkan pengguna untuk mengunggah dan mengompres gambar sesuai ukuran yang diinginkan. Dengan antarmuka yang mudah digunakan, kamu dapat mengompres gambar dengan cepat tanpa mengorbankan kualitas visual.
+PiComp adalah aplikasi web sederhana untuk mengunggah dan mengompres gambar sesuai ukuran yang kamu pilih, dengan antarmuka mudah dan kualitas tetap terjaga.
 
 ## Fitur Utama
 - **Resize Opsional**: Memungkinkan pengguna untuk mengubah dimensi gambar secara otomatis selama proses kompresi.
