@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('compressionForm');
     const loader = document.getElementById('loaderContainer');
     const successPopup = document.getElementById('successPopup');
+    const errorPopup = document.getElementById('errorPopup');
 
     form.addEventListener('submit', function(event) {
         event.preventDefault();
@@ -35,7 +36,11 @@ document.addEventListener('DOMContentLoaded', function() {
         .catch(error => {
             console.error(error);
             loader.style.display = 'none';
-            alert('Error during compression!');
+            errorPopup.style.display = 'block';
+
+            setTimeout(() => {
+                errorPopup.style.display = 'none';
+            }, 3000);
         });
 
         setTimeout(() => {

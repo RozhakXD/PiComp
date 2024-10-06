@@ -8,6 +8,9 @@ from PIL import Image
 def compress_image(input_path, output_path, target_size_kb, initial_quality=90, resize_factor=0.8, resize=False):
     img = Image.open(input_path)
 
+    if img.mode == 'RGBA':
+        img = img.convert('RGB')
+
     if resize:
         width, height = img.size
         img = img.resize((int(width * resize_factor), int(height * resize_factor)), Image.Resampling.LANCZOS)
@@ -30,7 +33,6 @@ def compress_image(input_path, output_path, target_size_kb, initial_quality=90, 
 
     compressed_size = os.path.getsize(output_path) / 1024
     print(f"Compressed file size: {compressed_size} KB, with quality={best_quality}")
-
 
 def index(request):
     if request.method == 'POST':
