@@ -70,6 +70,7 @@ Suka proyek ini? Dukung kami dengan donasi untuk pengembangan lebih lanjut!
 
 - [Trakteer](https://trakteer.id/rozhak_official/tip)
 - [PayPal](https://paypal.me/rozhak9)
+- [Saweria](https://saweria.co/rozhak9)
 
 ## Tangkapan Layar
 ![Results](https://github.com/user-attachments/assets/3a8fb97e-8a04-4c24-a69d-e0db8b832111)
