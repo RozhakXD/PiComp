@@ -66,7 +66,7 @@ Pastikan sistemmu memenuhi persyaratan berikut sebelum menginstal **PiComp**:
     - Pastikan Pillow telah diinstal dengan menjalankan `pip install pillow`.
 
 ## Dukungan Proyek
-Proyek ini bermanfaat? Dukung pengembangannya dengan donasi. Terima kasih!
+Suka proyek ini? Dukung kami dengan donasi untuk pengembangan lebih lanjut!
 
 - [Trakteer](https://trakteer.id/rozhak_official/tip)
 - [PayPal](https://paypal.me/rozhak9)
