@@ -5,10 +5,10 @@
 **PiComp** adalah aplikasi berbasis web sederhana yang memungkinkan pengguna untuk mengunggah dan mengompres gambar sesuai ukuran yang diinginkan. Dengan antarmuka yang mudah digunakan, kamu dapat mengompres gambar dengan cepat tanpa mengorbankan kualitas visual.
 
 ## Fitur Utama
-- 🖼 **Kompresi Gambar**: Kompres gambar hingga ukuran tertentu (contoh: 200 KB) tanpa kehilangan banyak kualitas.
-- 🔄 **Resize Opsional**: Memungkinkan pengguna untuk mengubah dimensi gambar secara otomatis selama proses kompresi.
-- 💾 **Mendukung Banyak Format**: Mendukung berbagai format gambar populer seperti JPEG dan PNG.
--⚡ **Antarmuka Sederhana**: Antarmuka yang minimalis dan responsif membuat proses kompresi gambar lebih mudah.
+- **Resize Opsional**: Memungkinkan pengguna untuk mengubah dimensi gambar secara otomatis selama proses kompresi.
+- **Kompresi Gambar**: Kompres gambar hingga ukuran tertentu (contoh: 200 KB) tanpa kehilangan banyak kualitas.
+- **Antarmuka Sederhana**: Antarmuka yang minimalis dan responsif membuat proses kompresi gambar lebih mudah.
+- **Mendukung Banyak Format**: Mendukung berbagai format gambar populer seperti JPEG dan PNG.
 
 ## Teknologi yang Digunakan
 - **HTML5 & CSS3**: Membentuk tampilan antarmuka pengguna.
