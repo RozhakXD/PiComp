@@ -11,10 +11,10 @@
 - **Mendukung Banyak Format**: Mendukung berbagai format gambar populer seperti JPEG dan PNG.
 
 ## Teknologi yang Digunakan
-- **Django**: Framework Python untuk web.
+- **JavaScript**: Menyediakan interaktivitas dasar pada halaman.
 - **HTML5 & CSS3**: Membentuk tampilan antarmuka pengguna.
 - **Pillow**: Library Python untuk manipulasi gambar.
-- **JavaScript**: Menyediakan interaktivitas dasar pada halaman.
+- **Django**: Framework Python untuk web.
 
 ## Instalasi di Localhost
 1. **Clone repositori ini ke direktori lokalmu menggunakan Git**:
@@ -66,7 +66,7 @@ Pastikan sistemmu memenuhi persyaratan berikut sebelum menginstal **PiComp**:
     - Pastikan Pillow telah diinstal dengan menjalankan `pip install pillow`.
 
 ## Dukungan Proyek
-Jika kamu merasa proyek ini bermanfaat, pertimbangkan untuk mendukung pengembangan lebih lanjut dengan berdonasi. Dukunganmu akan sangat berarti untuk menjaga proyek ini terus berjalan dan berkembang! ❤️
+Jika proyek ini bermanfaat, pertimbangkan untuk mendukung dengan donasi. Dukunganmu sangat berarti!
 
 - [Trakteer](https://trakteer.id/rozhak_official/tip)
 - [PayPal](https://paypal.me/rozhak9)
