@@ -20,7 +20,7 @@ PiComp adalah aplikasi web sederhana untuk mengunggah dan mengompres gambar sesu
 1. **Clone repositori ini ke direktori lokalmu menggunakan Git**:
     ```bash
     git clone https://github.com/RozhakXD/PiComp.git
-    cd "PiComp"
+    cd PiComp
     ```
 2. **Untuk mengisolasi dependensi proyek, buatlah virtual environment:**
     ```bash
