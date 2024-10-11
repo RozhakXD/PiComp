@@ -79,7 +79,7 @@ Suka proyek ini? Dukung kami dengan donasi untuk pengembangan lebih lanjut!
 - **v1.0.0**: Rilis awal, fitur utama kompresi gambar dengan opsi resize.
 
 ## Lisensi
-Proyek ini dilisensikan di bawah lisensi MIT. Lihat file [LICENSE](https://github.com/RozhakXD/Softwarcc/blob/main/LICENSE) untuk informasi lebih lanjut.
+Proyek ini dilisensikan di bawah lisensi MIT. Lihat file [LICENSE](https://github.com/RozhakXD/PiComp/blob/main/LICENSE) untuk informasi lebih lanjut.
 
 ##
 ```python
